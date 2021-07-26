@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>gmall-gateway</module>
+        <module>gmall-common</module>
+        <module>gmall-auth-server</module>
+        <module>gmall-cart</module>
+        <module>gmall-coupon</module>
+        <module>gmall-member</module>
+        <module>gmall-order</module>
+        <module>gmall-product</module>
+        <module>gmall-search</module>
+        <module>gmall-seckill</module>
+        <module>gmall-third-party</module>
+        <module>gmall-ware</module>
+        <module>gmall-third-party</module>
+        <module>renren-fast</module>
+    </modules>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.1</version>
+    </parent>
+
+    <groupId>com.wl</groupId>
+    <artifactId>gmall</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+</project>
